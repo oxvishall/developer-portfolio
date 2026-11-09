@@ -22,7 +22,7 @@ export const SEASONS: Record<SeasonId, { label: string }> = {
 };
 
 /** The switch. Seasons listed here are live for every visitor. */
-export const ACTIVE_SEASONS: SeasonId[] = ['halloween'];
+export const ACTIVE_SEASONS: SeasonId[] = [];
 
 const isSeasonId = (v: string): v is SeasonId => v in SEASONS;
 
